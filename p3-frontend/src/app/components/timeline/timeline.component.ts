@@ -28,7 +28,7 @@ export class TimelineComponent implements OnInit {
   generateConfig(batch: Array<batchTemplate>): Config {
     const iterations = batch.length;
     // GENERATE SOME ROWS
-
+    //test
     const rows = {};
     for (let i = 0; i < iterations; i++) {
 
